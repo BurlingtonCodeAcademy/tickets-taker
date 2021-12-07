@@ -1,12 +1,12 @@
 /*---------------DOM Scripting---------------*/
 
-let userName = document.getElementById("userName");
-let ticket = document.getElementById("ticket-btn");
-let stub = document.getElementById("ticketOrder");
+let userName = document.getElementById('userName');
+let ticket = document.getElementById('ticket-btn');
+let stub = document.getElementById('ticketOrder');
 
 /*-------------Event Listener---------------*/
 
-ticket.addEventListener("click", (evt) => {
+ticket.addEventListener('click', (evt) => {
   evt.preventDefault();
   ticketTaker();
 });
@@ -21,7 +21,7 @@ function ticketTaker() {
   // increments count to assign order number on user submit
   count++;
   //creates an h3 element
-  let ticketStub = document.createElement("h3");
+  let ticketStub = document.createElement('h3');
   //assigns the user and their order number to the h3
   ticketStub.textContent = `${userName.value} : ${count}`;
   //prints it in the order container
@@ -32,7 +32,7 @@ function ticketTaker() {
     ticket.disabled = true;
     //alerts the user the list is no longer populating
     alert(
-      "We are practicing social distancing so we will only be taking 25 customers at a time"
+      'We are practicing social distancing so we will only be taking 25 customers at a time'
     );
   }
 }
