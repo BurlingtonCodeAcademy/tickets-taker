@@ -1,13 +1,7 @@
 ---
 createdDate: 2021-11-29
 timeRequired: 1 Hour
-labels: workshop,javascript,template
-topics: instruction,workshop
-"workshop",
-    "javascript",
-    "DOM scripting",
-    "event listeners",
-    "forms"
+topics: instruction,workshop,javascript,dom-scripting,event-listeners,forms
 ---
 
 # Ticket Taking Counter
