@@ -32,7 +32,7 @@ function ticketTaker() {
     ticket.disabled = true;
     //alerts the user the list is no longer populating
     alert(
-      'We are practicing social distancing so we will only be taking 25 customers at a time'
+      'Sorry we will only be taking 25 customers at a time'
     );
   }
 }
