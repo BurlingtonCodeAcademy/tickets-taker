@@ -24,7 +24,7 @@
   "author": "G.J. Critchlow",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/BurlingtonCodeAcademy/workshop-example-template/issues"
+    "url": "https://github.com/BurlingtonCodeAcademy/tickets-taker/issues"
   },
   "homepage": "https://github.com/BurlingtonCodeAcademy/tickets-taker",
   "devDependencies": {
